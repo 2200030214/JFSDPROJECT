@@ -1,0 +1,109 @@
+/* Home Container */
+.home-container {
+    background-color: #ffebcc; /* Light orange background color */
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 200px;
+    background-color: #d2691e; /* Darker orange for contrast */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-text {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Introduction Section */
+.introduction-section {
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.introduction-section h2 {
+    margin-bottom: 10px;
+}
+
+.introduction-section p {
+    line-height: 1.6;
+}
+
+/* Website Features Section */
+.website-features-section {
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.feature-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.feature-card h3 {
+    color: #d2691e; /* Match the hero section color */
+    margin-bottom: 10px;
+}
+
+/* Call to Action Section */
+.cta-section {
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+    background-color: #d2691e; /* Darker orange for contrast */
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-section h2 {
+    margin-bottom: 15px;
+}
+
+.cta-section p {
+    line-height: 1.6;
+}
+
+.cta-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
